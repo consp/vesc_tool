@@ -467,6 +467,7 @@ p, li { white-space: pre-wrap; }
             <enumNames>Custom User App</enumNames>
             <enumNames>PAS</enumNames>
             <enumNames>ADC and PAS</enumNames>
+            <enumNames>ADC and PAS and UART</enumNames>
         </app_to_use>
         <app_ppm_conf.ctrl_type>
             <longName>Control Type</longName>
@@ -2052,10 +2053,13 @@ p, li { white-space: pre-wrap; }
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Roboto'; ; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Quadrature&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;This interface provides 2 signals that can be decoded to know the pedalling direction (forward of backwards).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;This interface provides 2 signals that can be decoded to know the pedalling direction (forward of backwards).&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Single&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;This interface provides a single signal which can be decoded to know the peddaling cadance.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
             <cDefine>APPCONF_PAS_SENSOR_TYPE</cDefine>
             <valInt>0</valInt>
             <enumNames>Quadrature</enumNames>
+            <enumNames>Single</enumNames>
         </app_pas_conf.sensor_type>
         <app_pas_conf.pedal_rpm_start>
             <longName>Pedal RPM Start</longName>
